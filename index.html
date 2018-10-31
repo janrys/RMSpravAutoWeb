@@ -10,7 +10,6 @@
 </head>
 <body data-spy="scroll" data-target="#navbar">
     <nav class="navbar navbar-expand-md navbar-light fixed-top" id="navbar">
-        <a name="top"></a>
         <div class="container shadow">
             <a href="#top" class="Logo">
                 <img src="Images/Logo.png" alt="Autoservis Maule">
@@ -20,11 +19,11 @@
             </button>
             <div class="collapse navbar-collapse" id="navbars">
                 <div class="navbar-nav">
+                    <a class="nav-item nav-link" href="#PriceList">Ceník</a>
                     <a class="nav-item nav-link" href="#AirConditioning">Klimatizace</a>
                     <a class="nav-item nav-link" href="#TireService">Pneuservis</a>
-                    <a class="nav-item nav-link" href="#PriceList">Ceník</a>
-                    <a class="nav-item nav-link" href="#Contact">Kontakt</a>
                     <a class="nav-item nav-link" href="#Geometry">Geometrie</a>
+                    <a class="nav-item nav-link" href="#Contact">Kontakt</a>
                     <a class="nav-item nav-link" href="#" onclick="redirectNavbar('http://www.supersaas.cz/schedule/spravauto/rezervace_pneuservis')"><mark>Online rezervace</mark></a>
                 </div>
             </div>
@@ -38,6 +37,7 @@
     </script>
 
     <div id="BackToTop"><a href="#"><i class="fa fa-chevron-up"></i></a></div>
+    <a name="top" id="top"></a>
 
     <article class="container">
         <div class="row">
@@ -58,7 +58,7 @@
                 <div class="container-fluid Cards">
                     <div class="row">
                         <div class="col-lg-4 col-md-6 col-12">
-                            <a href="#WhatWeCanDo" class="card WithIcon text-center">
+                            <a href="#Contact" class="card WithIcon text-center">
                                 <span><i class="fas fa-cogs"></i></span>
                                 <div class="card-body">
                                     <h5 class="card-title">Autoservis</h5>
@@ -67,7 +67,7 @@
                             </a>
                         </div>
                         <div class="col-lg-4 col-md-6 col-12">
-                            <a href="#WhatWeCanDo" class="card WithIcon text-center">
+                            <a href="#Contact" class="card WithIcon text-center">
                                 <span><i class="fas fa-car"></i></span>
                                 <div class="card-body">
                                     <h5 class="card-title">Pneuservis</h5>
@@ -76,7 +76,7 @@
                             </a>
                         </div>
                         <div class="col-lg-4 col-md-6 col-12">
-                            <a href="#WhatWeCanDo" class="card WithIcon text-center">
+                            <a href="#Contact" class="card WithIcon text-center">
                                 <span><i class="fas fa-tint"></i></span>
                                 <div class="card-body">
                                     <h5 class="card-title">Výměna kapalin</h5>
@@ -98,27 +98,12 @@
         </div>
 
         <div class="row Content">
-            <div class="col-md-12">
+            <div class="col-md-12 text-center">
 
                 <h2>Autoservis - pneuservis Praha 9 - Roman Maule</h2>
 
-                <p class="alert alert-secondary" role="alert">
-                    Díky našemu napojení na největší dodavatele pneumatik v ČR, je náš pneuservis schopen dodat Vámi vybrané pneu nejpozději do 48 hodin
-                    od doby objednání, a to za internetové ceny !
-                </p>
-
-            </div>
-
-            <div class="col-md-6">
-                <h3>Novinky</h3>
-                <ul>
-                    <li>Měření a seřízení geometrie na novém 8 senzorovém stroji!!</li>
-                </ul>
-            </div>
-
-            <div class="col-md-6">
                 <h3>Naše služby</h3>
-                <ul>
+                <ul class="list-unstyled">
                     <li>Autodiagnostika</li>
                     <li>Servis autoklimatizace</li>
                     <li>Dezinfekce autoklimatizace ozonem</li>
@@ -127,149 +112,13 @@
                     <li>Zajištění STK</li>
                     <li>Správa vozového parku</li>
                 </ul>
-            </div>
 
-
-
-        </div>
-
-        <div class="row">
-            <div class="Overlay">
-                <div class="col-md-12">
-                    <h1 id="AirConditioning">Klimatizace</h1>
-                </div>
-            </div>
-        </div>
-
-        <div class="row Content">
-            <div class="col-md-12">
-                <h2>Autoklimatizace Praha 9 – Čakovice, plnění a kompletní servis Vaší klimatizace</h2>
-                <h3>Plnění a servis autoklimatizace</h3>
-                <p>
-                    Autoservis Maule Vám poskytne komplexní odborné služby zaměřené na plnění a servis autoklimatizace. V našem autoservisu dokážeme vyřešit
-                    veškeré problémy spojené s funkcí autoklimatizace od základního servisu klimatizace až po dohledání a odstranění úniku chladícího media
-                    z klimatiace Vašeho vozu. Autoklimatizace poskytované služby autoservisem Maule
-                </p>
-                <ol>
-                    <li>Odsátí a recyklace chladícího média ze systému autoklimatizace</li>
-                    <li>Podtlakové zkoušky celého okruhu klimatizace</li>
-                    <li>Každý vůz je v našem autoservisu plněn speciální kontrastní látkou pro rychlé odhalení netěsnosti v okruhu autoklimatizace</li>
-                    <li>Odstranění úniků chladiva z autoklimatizace</li>
-                    <li>Naplnění systému ekologickým chladivem R134a</li>
-                    <li>Výměna kabinového filtru</li>
-                </ol>
-                <h3>Jak poznat, že autoklimatizace vozu správně funguje ?</h3>
-                <p>
-                    Je velmi důležité sledovat funkci autoklimatizace po celý rok! V létním období by se měla pohybovat teplota vzduchu vycházejícího z výdechů
-                    ventilace vašeho vozu okolo 8-15°C. Kompresor klimatizace nesmí při provozu autoklimatizace opakovaně spínat a vypínat. Běh kompresoru by něměl
-                    nijak výrazně narušovat volnoběžný chod vašeho automobilu a neměl by vydávat jakýkoli hluk. Je velmi důležité neopomínat desinfekci
-                    autoklimatizace, jakýkoli zápach znamená vznik zdravýškodlivých bakterii v systému.
-                </p>
-                <h3>Zápach z průduchů autoklimatizace</h3>
-                <h2>CHRAŇTE SVÉ ZDRAVÍ</h2>
-                <p>
-                    Jestli-že ucítíte zápach z autoklimatitace je velmi důležité okamžitě provést desinfekci klimatizace, která odstarní nepříjemný zápach a
-                    zníčí bakterie. Desinfekci autoklimatizace doporučujeme provést minimálně jednou ročně včetně výměny kabinového filtru. Velice důležiré je
-                    nepodcenit desinfekci autoklimatizace především trpíte-li jakýmkoliv onemocněním dýchacích cest, alergií, astmatem atd.
-                </p>
-                <h3>Únik chladiva z klimatizace</h3>
-                <p>
-                    Nejčastější závadou autoklimatizace, je únik chladícího média z chladícího okruhu autoklimatizace. Výrobci automobilů udávají jako
-                    přijatený uník okolo 20% chladícího média ročně. K únikům chladiva ze systému autoklimatizace z důvodů vibrací, nárazů, přehřátí
-                    motorového prostoru atd. Z výše uvedených důvodů je doporučená kontorla autoklimatizace každý rok, můžete tím předcházet poškození
-                    jednotlivých komponentů v systému klimatizace, jejichž opravy často sahají do několika tisícových částek. Zpozorujete-li po několika
-                    dnech či týdnech od doplnění média klimatizace její snížený účinek, je nutné ihned navštívit servis, kde bude prověřena správná funkce
-                    autoklimatizace, popřípadě prověření jednotlivých komponentů klimatizačního okruhu a opravení závady autoklimatizace.
-                </p>
-                <h3>Závady autoklimatizací</h3>
-                <p>
-                    Mezi hlavní závady klimatizace patří závady klimakompresoru, který je vlastně srdcem Vaší autoklimatizace. Klimakopresor je velice složité
-                    mechanické zařízení, které může být poškozeno například nedostatkem oleje v systému klimatizace, nebo poškození elektromagnetické spojky
-                    klimakopresoru, která zajištuje jeho spínání a vypínání. Vyvarujte se neodbornému servisu Vaší autoklimatizace Veškeré opravy autoklimatizace,
-                    přenechte vyškoleným odborníkům. Většina pokusů o opravu klimatizace bez patřičného vzdělání a vybavení končí poškozením některého z dílů
-                    autoklimatizace. Je třeba si uvědomit, že díly klimatizace jsou velmi nákladné, a nevyplatí se proto riskovat jejich zníčením neodborným
-                    servisem. Autoklimatizace a její vliv nabezpečnost provozu Autoklimatizace se podílí i na bezpečnosti jizdy v letním období. Bez použití
-                    autoklimatizace vystavujeme náš organizmus přehřátí, na základě kterého velmi jednoduše ztratíme potřebnou koncetraci k řízení vozidla.
-                    Je třeba si uvědomit, teplota uvnitř vozu může v letních obdobích dosáhnout vysokých teplot. Použítí autoklimatizace by mělo být stejně
-                    automatické jako používání topení v zimním období a nebo stěračů za deště.
+                <p class="alert alert-secondary" role="alert">
+                    Díky našemu napojení na největší dodavatele pneumatik v ČR, je náš pneuservis schopen dodat Vámi vybrané pneu nejpozději do 48 hodin
+                    od doby objednání, a to za internetové ceny !
                 </p>
             </div>
         </div>
-
-        <div class="row">
-            <div class="Overlay">
-                <div class="col-md-12">
-                    <h1 id="TireService">Pneuservis</h1>
-                </div>
-            </div>
-        </div>
-
-        <div class="row Content">
-            <div class="col-md-12">
-                <h2>GEOMETRIE KOL</h2>
-                <p>
-                    <em>Seřízení Geometrie kol provádíme laserovým zařízením s 8 CCD senzory.</em>
-                </p>
-                <h3>CO ZNAMENÁ GEOMETRIE KOL ?</h3>
-                <p>
-                    Každý osobní vůz má dvě nápravy. Každá náprava má předepsané hodnoty úhlů. Přesné seřízení geometrie náprav Vám zajistí rovnoměrné sjíždění
-                    pneumatik, a tím samořejmě prodlouží i jejich životnost. Dále přesné měření geometrie zajistí správné vlastnostní podmínky vozu pro
-                    bezpečný provoz a zamezí bočnímu tahu po rovné silnici (pokud není vadná pneumatika).
-                </p>
-                <h3>Co všechno se dá měřit na nápravě ?</h3>
-            </div>
-            <div class="col-md-6">
-                <ul>
-                    <li>
-                        Přední kolo
-                        <ul>
-                            <li>sbíhavost</li>
-                            <li>záklon</li>
-                            <li>odklon</li>
-                            <li>úhel symetrické sbíhavosti</li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-md-6">
-                <ul>
-                    <li>
-                        Zadní kolo
-                        <ul>
-                            <li>sbíhavost</li>
-                            <li>odklon</li>
-                            <li>set-back</li>
-                            <li>úhel jízdní osy</li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-md-12">
-                <h3>KDY SE MUSÍ PROVÉST SEŘÍZENÍ GEOMETRIE KOL ?</h3>
-                <p>
-                    Kontrolu doporučujeme vždy, když vozidlo dostane tvrdý náraz do podvozku nebo pokud máte pocit, že Vám při jízdě vzniká boční
-                    tah nebo máte nerovnoměrně sjeté pneumatiky. Nejčastější případy vzniku rozhozené geometrie kol (náprav):
-
-                    <ul>
-                        <li>vjetí do díry ve vozovce</li>
-                        <li>dopravní nehoda</li>
-                        <li>prudký náraz do obrubníku</li>
-                    </ul>
-                </p>
-
-                <h3>Doporučujeme :</h3>
-
-                <p>
-                    Seřízení geometrie kol vždy, když dochází k nerovnoměrnému opotřebení pneumatik a nebo preventivně jednou za dva roky.
-                    Seřízením geometrie vozu předcházíte nejen snížení životnosti pneumatik, ale také špatným jízdním vlastnostem vozidla, které mají
-                    vliv na bezpečnost provozu. Správným seřízením geometrie šetříte spotřebu paliva. Měření geometrie vozidla je nutné provést po opravách
-                    podvozkových částí, například po výměně čepů řízení, výměně ramen apod. Proveďte geometrii kol při koupi ojetého vozidla.
-                </p>
-                <p><em>POKUD MÁTE DALŠÍ OTÁZKY, NEBO POTŘEBUJETE-LI SEŘÍDIT GEOMETRII KOL, NEVÁHEJTE NÁS KONTAKTOVAT</em></p>
-
-            </div>
-        </div>
-
 
         <div class="row">
             <div class="Overlay">
@@ -463,6 +312,97 @@
         <div class="row">
             <div class="Overlay">
                 <div class="col-md-12">
+                    <h1 id="AirConditioning">Klimatizace</h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="row Content">
+            <div class="col-md-12">
+                <h2>Autoklimatizace Praha 9 – Čakovice, plnění a kompletní servis Vaší klimatizace</h2>
+                <h3>Plnění a servis autoklimatizace</h3>
+                <p>
+                    Autoservis Maule Vám poskytne komplexní odborné služby zaměřené na plnění a servis autoklimatizace. V našem autoservisu dokážeme vyřešit
+                    veškeré problémy spojené s funkcí autoklimatizace od základního servisu klimatizace až po dohledání a odstranění úniku chladícího media
+                    z klimatiace Vašeho vozu. Autoklimatizace poskytované služby autoservisem Maule
+                </p>
+                <ol>
+                    <li>Odsátí a recyklace chladícího média ze systému autoklimatizace</li>
+                    <li>Podtlakové zkoušky celého okruhu klimatizace</li>
+                    <li>Každý vůz je v našem autoservisu plněn speciální kontrastní látkou pro rychlé odhalení netěsnosti v okruhu autoklimatizace</li>
+                    <li>Odstranění úniků chladiva z autoklimatizace</li>
+                    <li>Naplnění systému ekologickým chladivem R134a</li>
+                    <li>Výměna kabinového filtru</li>
+                </ol>
+                <h3>Jak poznat, že autoklimatizace vozu správně funguje ?</h3>
+                <p>
+                    Je velmi důležité sledovat funkci autoklimatizace po celý rok! V létním období by se měla pohybovat teplota vzduchu vycházejícího z výdechů
+                    ventilace vašeho vozu okolo 8-15°C. Kompresor klimatizace nesmí při provozu autoklimatizace opakovaně spínat a vypínat. Běh kompresoru by něměl
+                    nijak výrazně narušovat volnoběžný chod vašeho automobilu a neměl by vydávat jakýkoli hluk. Je velmi důležité neopomínat desinfekci
+                    autoklimatizace, jakýkoli zápach znamená vznik zdravýškodlivých bakterii v systému.
+                </p>
+                <h3>Zápach z průduchů autoklimatizace</h3>
+                <h2>CHRAŇTE SVÉ ZDRAVÍ</h2>
+                <p>
+                    Jestli-že ucítíte zápach z autoklimatitace je velmi důležité okamžitě provést desinfekci klimatizace, která odstarní nepříjemný zápach a
+                    zníčí bakterie. Desinfekci autoklimatizace doporučujeme provést minimálně jednou ročně včetně výměny kabinového filtru. Velice důležiré je
+                    nepodcenit desinfekci autoklimatizace především trpíte-li jakýmkoliv onemocněním dýchacích cest, alergií, astmatem atd.
+                </p>
+                <h3>Únik chladiva z klimatizace</h3>
+                <p>
+                    Nejčastější závadou autoklimatizace, je únik chladícího média z chladícího okruhu autoklimatizace. Výrobci automobilů udávají jako
+                    přijatený uník okolo 20% chladícího média ročně. K únikům chladiva ze systému autoklimatizace z důvodů vibrací, nárazů, přehřátí
+                    motorového prostoru atd. Z výše uvedených důvodů je doporučená kontorla autoklimatizace každý rok, můžete tím předcházet poškození
+                    jednotlivých komponentů v systému klimatizace, jejichž opravy často sahají do několika tisícových částek. Zpozorujete-li po několika
+                    dnech či týdnech od doplnění média klimatizace její snížený účinek, je nutné ihned navštívit servis, kde bude prověřena správná funkce
+                    autoklimatizace, popřípadě prověření jednotlivých komponentů klimatizačního okruhu a opravení závady autoklimatizace.
+                </p>
+                <h3>Závady autoklimatizací</h3>
+                <p>
+                    Mezi hlavní závady klimatizace patří závady klimakompresoru, který je vlastně srdcem Vaší autoklimatizace. Klimakopresor je velice složité
+                    mechanické zařízení, které může být poškozeno například nedostatkem oleje v systému klimatizace, nebo poškození elektromagnetické spojky
+                    klimakopresoru, která zajištuje jeho spínání a vypínání. Vyvarujte se neodbornému servisu Vaší autoklimatizace Veškeré opravy autoklimatizace,
+                    přenechte vyškoleným odborníkům. Většina pokusů o opravu klimatizace bez patřičného vzdělání a vybavení končí poškozením některého z dílů
+                    autoklimatizace. Je třeba si uvědomit, že díly klimatizace jsou velmi nákladné, a nevyplatí se proto riskovat jejich zníčením neodborným
+                    servisem. Autoklimatizace a její vliv nabezpečnost provozu Autoklimatizace se podílí i na bezpečnosti jizdy v letním období. Bez použití
+                    autoklimatizace vystavujeme náš organizmus přehřátí, na základě kterého velmi jednoduše ztratíme potřebnou koncetraci k řízení vozidla.
+                    Je třeba si uvědomit, teplota uvnitř vozu může v letních obdobích dosáhnout vysokých teplot. Použítí autoklimatizace by mělo být stejně
+                    automatické jako používání topení v zimním období a nebo stěračů za deště.
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="Overlay">
+                <div class="col-md-12">
+                    <h1 id="TireService">Pneuservis</h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="row Content">
+            <div class="col-md-12">
+                <h2>DO KDY JE NUTNÉ JEZDIT NA ZIMNÍCH PNEUMATIKÁCH ?</h2>
+                <p>
+                    Motoristé mají povinnost vybavit vozidlo <strong>od 1. listopadu do 31. března</strong> na všech vozovkách zimními pneumatikami, a to za předpokladu,
+                    že se na silnici nachází souvislá vrstva sněhu, ledu nebo námrazy, nebo v případě, kdy je možné dle počasí předpokládat, že tato situace
+                    nastane v době provozu vozidla na komunikacích. V úseku platnosti označených dopravní značkou "zimní výbava" - C15a/C15b, je povinnost
+                    zimní pneumatiky použít bez ohledu na povětrnostní podmínky.
+                </p>
+                <p>
+                    Vozidla s hmotností <strong>do 3500</strong> kg mají povinnost použít zimní pneumatiky na všech kolech s hloubkou dezénu <strong>nejméně 4 mm</strong>. Motorová
+                    vozidla s hmotností <strong>nad 3500 kg</strong> pak musí mít zimními pneumatikami opatřena všechna kola hnacích náprav s trvalým přenosem hnací
+                    síly a minimální hloubkou dezénových drážek <strong>6 mm</strong>.
+                </p>
+                <p><em>POKUD MÁTE DALŠÍ OTÁZKY K SERVISU PNEUMATIK, ANEBO POTŘEBUJETE PŘEZOUT A VYVÁŽIT PNEUMATIKY, NEVÁHEJTE NÁS KONTAKTOVAT</em></p>
+            </div>
+        </div>
+
+
+
+        <div class="row">
+            <div class="Overlay">
+                <div class="col-md-12">
                     <h1 id="Geometry">Geometrie</h1>
                 </div>
             </div>
@@ -481,6 +421,9 @@
                     bezpečný provoz a zamezí bočnímu tahu po rovné silnici (pokud není vadná pneumatika).
                 </p>
                 <h3>Co všechno se dá měřit na nápravě ?</h3>
+            </div>
+
+            <div class="col-md-6">
                 <ul>
                     <li>
                         Přední kolo
@@ -491,6 +434,10 @@
                             <li>úhel symetrické sbíhavosti</li>
                         </ul>
                     </li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <ul>
                     <li>
                         Zadní kolo
                         <ul>
@@ -501,6 +448,9 @@
                         </ul>
                     </li>
                 </ul>
+            </div>
+
+            <div class="col-md-12">
                 <h3>KDY SE MUSÍ PROVÉST SEŘÍZENÍ GEOMETRIE KOL ?</h3>
                 <p>
                     Kontrolu doporučujeme vždy, když vozidlo dostane tvrdý náraz do podvozku nebo pokud máte pocit, že Vám při jízdě vzniká boční
@@ -555,6 +505,7 @@
                                     <div class="clearfix"></div>
                                 </li>
                             </ul>
+                            <div id="map"></div>
                         </div>
                         <div class="col-md-6">
                             <ul class="Contact">
@@ -593,7 +544,7 @@
             <table>
                 <tr>
                     <td>Copyright © 2018 OGAMAT, s.r.o.</td>
-                    <td class="SocialSite"><a href="https://www.facebook.com/ogamatit/" target="_blank"><i class="fab fa-facebook-f"></i></a></td>
+                    <td class="SocialSite"><a href="https://www.facebook.com/www.spravauto.cz/" target="_blank"><i class="fab fa-facebook-f"></i></a></td>
                 </tr>
             </table>
         </footer>
@@ -677,5 +628,21 @@
     </script>
 
     <script src="Libraries/Bootstrap/4.1.3/bootstrap.min.js"></script>
+
+    <script>
+        function initMap() {
+            var serviceLocation = new google.maps.LatLng(50.151249, 14.532032);
+            var mapCanvas = document.getElementById('map');
+            var mapOptions = {
+                center: serviceLocation,
+                zoom: 16,
+                panControl: false,
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+            }
+            var map = new google.maps.Map(mapCanvas, mapOptions);
+        }
+    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDaedHSNp-N6XljQ4DaKPc08iCPjHip1Jk&callback=initMap">
+    </script>
 </body>
 </html>
