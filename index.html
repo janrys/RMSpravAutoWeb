@@ -505,9 +505,7 @@
                                     <div class="clearfix"></div>
                                 </li>
                             </ul>
-                            <div id="map"></div>
-                        </div>
-                        <div class="col-md-6">
+
                             <ul class="Contact">
                                 <li>
                                     <div class="float-left"><strong>Otevírací doba:</strong></div>
@@ -531,6 +529,13 @@
                                 </li>
                             </ul>
                         </div>
+                        <div class="col-md-6">
+                            <div>
+                                <div id="map" style="width: 450px; height: 300px;"></div>
+                                <br>
+                            </div>
+                        </div>
+                        <br>
                     </div>
                 </div>
             </div>
@@ -549,6 +554,8 @@
             </table>
         </footer>
     </article>
+
+
 
     <script src="Libraries/jQuery/3.3.1/jquery.min.js"></script>
 
@@ -631,15 +638,13 @@
 
     <script>
         function initMap() {
-            var serviceLocation = new google.maps.LatLng(50.151249, 14.532032);
+            var serviceLocation = new google.maps.LatLng(50.151269, 14.532134);
             var mapCanvas = document.getElementById('map');
-            var mapOptions = {
-                center: serviceLocation,
-                zoom: 16,
+            var map = new google.maps.Map(mapCanvas, {
+                zoom: 16, center: serviceLocation,
                 panControl: false,
-                mapTypeId: google.maps.MapTypeId.ROADMAP
-            }
-            var map = new google.maps.Map(mapCanvas, mapOptions);
+                mapTypeId: google.maps.MapTypeId.ROADMAP });
+            var marker = new google.maps.Marker({ position: serviceLocation, map: map });
         }
     </script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDaedHSNp-N6XljQ4DaKPc08iCPjHip1Jk&callback=initMap">
