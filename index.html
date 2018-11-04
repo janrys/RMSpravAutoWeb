@@ -2,30 +2,53 @@
 <!DOCTYPE html>
 <html lang="cs">
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-30048964-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-30048964-1');
+    </script>
+
     <title>Autoservis Maule</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
     <link rel="stylesheet" href="Libraries/Bootstrap/4.1.3/bootstrap.min.css" />
     <link rel="stylesheet" href="Styles/Main.min.css?2018-10-19T10:51:42" />
+    <link rel="icon" type="image/x-icon" href="Images/Icons/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" href="Images/Icons/car-152-232990.png">
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="Images/Icons/car-144-232990.png">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="Images/Icons/car-152-232990.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="Images/Icons/car-144-232990.png">
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="Images/Icons/car-120-232990.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="Images/Icons/car-114-232990.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="Images/Icons/car-72-232990.png">
+    <link rel="apple-touch-icon-precomposed" href="Images/Icons/car-57-232990.png">
+    <link rel="icon" href="Images/Icons/car-32-232990.png" sizes="32x32">
 </head>
 <body data-spy="scroll" data-target="#navbar">
-    <nav class="navbar navbar-expand-md navbar-light fixed-top" id="navbar">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="navbar">
         <div class="container shadow">
             <a href="#top" class="Logo">
-                <img src="Images/Logo.png" alt="Autoservis Maule">
+                <img src="Images/Logo.png" alt="Autoservis Maule" class="img-responsive d-none d-sm-block">
+                <img src="Images/Logosmall.png" alt="Autoservis Maule" class="img-responsive d-block d-sm-none">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars" aria-controls="navbars" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbars">
-                <div class="navbar-nav">
+                <span class="navbar-nav">
                     <a class="nav-item nav-link" href="#PriceList">Ceník</a>
                     <a class="nav-item nav-link" href="#AirConditioning">Klimatizace</a>
                     <a class="nav-item nav-link" href="#TireService">Pneuservis</a>
                     <a class="nav-item nav-link" href="#Geometry">Geometrie</a>
                     <a class="nav-item nav-link" href="#Contact">Kontakt</a>
-                    <a class="nav-item nav-link" href="#" onclick="redirectNavbar('http://www.supersaas.cz/schedule/spravauto/rezervace_pneuservis')"><mark>Online rezervace</mark></a>
-                </div>
+                    <a class="nav-item nav-link" href="#" onclick="redirectNavbar('http://www.supersaas.cz/schedule/spravauto/rezervace_pneuservis')"><span class="font-weight-bold text-danger border border-danger">&nbsp; Online&nbsp;rezervace &nbsp;</span></a>
+                </span>
             </div>
         </div>
     </nav>
@@ -107,9 +130,9 @@
                     <li>Servis autoklimatizace</li>
                     <li>Dezinfekce autoklimatizace ozonem</li>
                     <li>Měření a seřízení geometrie</li>
-                    <li>Prodej nových i použítých pneu</li>
+                    <li>Prodej nových pneumatik</li>
                     <li>Zajištění STK</li>
-                    <li>Správa vozového parku</li>
+                    <li>Diagnostika TMPS</li>
                 </ul>
 
                 <p class="alert alert-secondary" role="alert">
@@ -133,7 +156,6 @@
             </div>
 
             <div class="col-md-12 text-center">
-
                 <table class="table table-hover">
                     <thead class="thead-light">
                         <tr>
@@ -190,122 +212,126 @@
                     </tbody>
                 </table>
 
-                <table class="table table-hover">
-                    <thead class="thead-light">
-                        <tr>
-                            <th>Offroad,Dodávka</th>
-                            <th>14'' - 15''</th>
-                            <th>16'' - 17''</th>
-                            <th>18''</th>
-                            <th>19'' - 22''</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th>Celý vůz</th>
-                            <td>580 Kč</td>
-                            <td>680 Kč</td>
-                            <td>780 Kč</td>
-                            <td>880 Kč</td>
-                        </tr>
-                        <tr>
-                            <th>Demontáž z osy</th>
-                            <td>60 Kč</td>
-                            <td>70 Kč</td>
-                            <td>70 Kč</td>
-                            <td>70 Kč</td>
-                        </tr>
-                        <tr>
-                            <th>Demontáž z disku</th>
-                            <td>25 Kč</td>
-                            <td>30 Kč</td>
-                            <td>55 Kč</td>
-                            <td>80 Kč</td>
-                        </tr>
-                        <tr>
-                            <th>Vyvážení pneu</th>
-                            <td>60 Kč</td>
-                            <td>70 Kč</td>
-                            <td>70 Kč</td>
-                            <td>70 Kč</td>
-                        </tr>
-                        <tr>
-                            <th>Likvidace pneu</th>
-                            <td>45 Kč</td>
-                            <td>55 Kč</td>
-                            <td>65 Kč</td>
-                            <td>75 Kč</td>
-                        </tr>
-                        <tr>
-                            <th>Runflat</th>
-                            <td>40 Kč</td>
-                            <td>50 Kč</td>
-                            <td>60 Kč</td>
-                            <td>70 Kč</td>
-                        </tr>
-                    </tbody>
-                </table>
+                <div class="table-responsive-md">
+                    <table class="table table-hover">
+                        <thead class="thead-light">
+                            <tr>
+                                <th>Offroad,Dodávka</th>
+                                <th>14'' - 15''</th>
+                                <th>16'' - 17''</th>
+                                <th>18''</th>
+                                <th>19'' - 22''</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>Celý vůz</th>
+                                <td>580 Kč</td>
+                                <td>680 Kč</td>
+                                <td>780 Kč</td>
+                                <td>880 Kč</td>
+                            </tr>
+                            <tr>
+                                <th>Demontáž z osy</th>
+                                <td>60 Kč</td>
+                                <td>70 Kč</td>
+                                <td>70 Kč</td>
+                                <td>70 Kč</td>
+                            </tr>
+                            <tr>
+                                <th>Demontáž z disku</th>
+                                <td>25 Kč</td>
+                                <td>30 Kč</td>
+                                <td>55 Kč</td>
+                                <td>80 Kč</td>
+                            </tr>
+                            <tr>
+                                <th>Vyvážení pneu</th>
+                                <td>60 Kč</td>
+                                <td>70 Kč</td>
+                                <td>70 Kč</td>
+                                <td>70 Kč</td>
+                            </tr>
+                            <tr>
+                                <th>Likvidace pneu</th>
+                                <td>45 Kč</td>
+                                <td>55 Kč</td>
+                                <td>65 Kč</td>
+                                <td>75 Kč</td>
+                            </tr>
+                            <tr>
+                                <th>Runflat</th>
+                                <td>40 Kč</td>
+                                <td>50 Kč</td>
+                                <td>60 Kč</td>
+                                <td>70 Kč</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
 
-                <table class="table table-hover">
-                    <tbody>
-                        <tr>
-                            <th class="table-active">Služby, materiál</th>
-                            <td>Duše 13'' - 140 Kč  </td>
-                            <td>Duše 14'' - 160 Kč</td>
-                            <td>Duše 15'' - 220 Kč</td>
-                            <td>Duše 16'' - 240 Kč</td>
-                        </tr>
-                        <tr>
-                            <td>&nbsp;</td>
-                            <th class="table-active">Závaží 1G</th>
-                            <td>1 Kč</td>
-                            <th class="table-active">Oprava pneu</th>
-                            <td>250 Kč</td>
-                        </tr>
-                        <tr>
-                            <td>&nbsp;</td>
-                            <th class="table-active">Bezdušový ventil</th>
-                            <td>25 Kč</td>
-                            <th class="table-active">Pytel na pneu</th>
-                            <td>ZDARMA</td>
-                        </tr>
-                        <tr>
-                            <th class="table-active">Autoservis</th>
-                            <th class="table-active">Servisní práce</th>
-                            <td>1 Hodina</td>
-                            <td>350 Kč</td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>&nbsp;</td>
-                            <th class="table-active">Servis klima.</th>
-                            <td>od 400 Kč</td>
-                            <th class="table-active">1g chladiva</th>
-                            <td>1,5 Kč</td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>&nbsp;</td>
-                            <th class="table-active">Geometrie</th>
-                            <td>od 600 Kč</td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <th class="table-active">Motorové oleje</th>
-                            <th class="table-active">15W - 40</th>
-                            <td>od 150 Kč</td>
-                            <th class="table-active">10W - 40</th>
-                            <td>od 190 Kč</td>
-                        </tr>
-                        <tr>
-                            <td>&nbsp;</td>
-                            <th class="table-active">5W - 40</th>
-                            <td>od 230 Kč</td>
-                            <th class="table-active">5W - 30</th>
-                            <td>od 320 Kč</td>
-                        </tr>
-                    </tbody>
-                </table>
+                <div class="table-responsive-md">
+                    <table class="table table-hover">
+                        <tbody>
+                            <tr>
+                                <th class="table-active">Služby, materiál</th>
+                                <td>Duše 13'' - 140 Kč  </td>
+                                <td>Duše 14'' - 160 Kč</td>
+                                <td>Duše 15'' - 220 Kč</td>
+                                <td>Duše 16'' - 240 Kč</td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp;</td>
+                                <th class="table-active">Závaží 1G</th>
+                                <td>1 Kč</td>
+                                <th class="table-active">Oprava pneu</th>
+                                <td>250 Kč</td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp;</td>
+                                <th class="table-active">Bezdušový ventil</th>
+                                <td>25 Kč</td>
+                                <th class="table-active">Pytel na pneu</th>
+                                <td>ZDARMA</td>
+                            </tr>
+                            <tr>
+                                <th class="table-active">Autoservis</th>
+                                <th class="table-active">Servisní práce</th>
+                                <td>1 Hodina</td>
+                                <td>350 Kč</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp;</td>
+                                <th class="table-active">Servis klima.</th>
+                                <td>od 400 Kč</td>
+                                <th class="table-active">1g chladiva</th>
+                                <td>1,5 Kč</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp;</td>
+                                <th class="table-active">Geometrie</th>
+                                <td>od 600 Kč</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th class="table-active">Motorové oleje</th>
+                                <th class="table-active">15W - 40</th>
+                                <td>od 150 Kč</td>
+                                <th class="table-active">10W - 40</th>
+                                <td>od 190 Kč</td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp;</td>
+                                <th class="table-active">5W - 40</th>
+                                <td>od 230 Kč</td>
+                                <th class="table-active">5W - 30</th>
+                                <td>od 320 Kč</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
 
                 <p class="text-left">Platnost od 1.3.2012 <br>*ceny olejů jsou orientační</p>
             </div>
@@ -530,7 +556,7 @@
                                 </li>
                                 <li>
                                     <div class="float-left"><strong>Pondělí - Pátek</strong></div>
-                                    <div class="float-left">8:00 - 17:00</div>
+                                    <div class="float-left">8:00 - 18:00</div>
                                     <div class="clearfix"></div>
                                 </li>
                                 <li>
@@ -547,7 +573,7 @@
                         </div>
                         <div class="col-md-6">
                             <div>
-                                <div id="map" style="width: 450px; height: 300px;"></div>
+                                <div id="map" style="width: 90%; height: 300px;"></div>
                                 <br>
                             </div>
                         </div>
